@@ -1,0 +1,158 @@
+/* App-js style */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  color: white;
+  max-height: 100vh;
+  /* background-color: red; */
+}
+
+.app--container {
+  margin: 20px auto;
+  padding: 20px 10px;
+  border-radius: 10px;
+  width: 517px;
+  height: 100%;
+  background-color: rgba(7, 22, 43);
+}
+
+.app--container--two {
+  border-radius: 10px;
+  margin: 20px auto;
+  background-color: rgba(35, 46, 54);
+  /* border: 1px solid white; */
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+
+}
+
+.header--container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+  padding: 10px 80px;
+ 
+}
+.header--container img{
+  
+  width: 80%;
+ 
+}
+
+/* main-js style */
+
+
+.main--heading {
+  font-size: 27px;
+  text-align: center;
+  margin: 15px 0px 0px 0px;
+}
+
+.main--h4--one {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgba(255, 204, 0);
+}
+
+.main--span-two {
+  display: block;
+  text-align: center;
+  font-size: 11px;
+}
+
+.main--content {
+  line-height: 1.1em;
+}
+
+.btn--class {
+  display: flex;
+  padding: 20px 10px;
+  justify-content: center;
+  gap: 1rem;
+}
+.main--btn {
+  
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  /* flex-direction: row; */
+  width: 115px;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.btn-email {
+  display: flex;
+  color: black;
+  /* background-color: white; */
+  font-size: 16px;
+  margin-left: 22px;
+  padding: 5px 20px;
+}
+
+.btn-linkedin {
+  display: flex;
+  font-size: 16px;
+  background-color: rgb(35, 145, 255);
+  color: white;
+  margin-right: 22px;
+}
+
+.email {
+  height: 25px;
+  margin: 0px;
+}
+.linkedin {
+  height: 15px;
+  margin: 3px;
+}
+
+.main--about--interest {
+  width: 247px;
+  height: 250;
+  padding: 10px;
+  padding-bottom: 3px;
+  margin: 5px auto;
+  overflow: hidden;
+  line-height: 1.08em;
+  font-size: 12px;
+}
+
+.main--about--interest > p {
+  font-size: 11px;
+  text-align: justify;
+  word-spacing: 0.05em;
+}
+.main--about--interest > h3 {
+  /* font-size: 11px; */
+  margin-bottom: 3px;
+  margin-top: 4px;
+}
+
+/* Footer js styling */
+
+.footer--container {
+  display: flex;
+  width: 100%;
+  height: 65px;
+  background-color: rgb(0, 42, 105);
+  padding: 3px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer--image {
+  height: 25px;
+  filter: brightness(2);
+  margin: 10px;
+}
