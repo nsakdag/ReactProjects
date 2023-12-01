@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg,#020024,#790953 35%,#00d4ff);
+    color: #fff;
+    min-height: 100vh;
+}
+.title {
+    font-family: Rubik Vinyl,cursive;
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    margin: 50px;
+}
