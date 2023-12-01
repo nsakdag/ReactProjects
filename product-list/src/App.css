@@ -1,0 +1,136 @@
+* {
+      -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    
+}
+
+.container {
+    background-color: #FCD7E3;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: cener;
+    border: 2px solid red;
+}
+
+.cards-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.card {
+    /* display: block; */
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    width: 350px;
+    outline: 1px solid #036cdb;
+}
+
+.card img{
+    border-radius: 10px;
+    height: 450px;
+    object-fit: cover;
+    opacity: .5;
+    width: 100%;
+    outline: 1px solid #22746b;
+}
+
+.card img:hover {
+    opacity: 1;
+}
+.card h1 {
+    background-color: rgba(0,0,0,.8);
+    border-radius: 10px;
+    color: #fff;
+    font-size: .9rem;
+    left: 50%;
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+
+.card h1 {
+   
+    font-size: 1.5em;
+    
+   
+    font-weight: bold;
+}
+
+
+
+.card-over {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    bottom: 0;
+    color: #fff;
+    font-size: 1.2rem;
+    left: 0;
+    max-height: 55%;
+    overflow: auto;
+    padding: 1rem;
+    position: absolute;
+    text-align: justify;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    transition: -webkit-transform 0.7s ease-in-out;
+    transition: transform 0.7s ease-in-out;
+    transition: transform 0.7s ease-in-out, -webkit-transform 0.7s ease-in-out;
+    width: 100%;
+    z-index: 3;
+    overflow: hidden;
+
+}
+.card:hover .card-over {
+    -webkit-transform: translateX(0);
+    transform: translate(0);
+  }
+
+
+.header {
+    margin-top: 50px;
+    border: 2px solid blue;
+    text-align: center;
+
+}
+
+.header h1 {
+    color: #cd890c;
+    font-size: 2.3rem;
+}
+
+.header .btns button {
+    margin: 25px;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    padding: 1rem;
+    transition: all 1s;
+    outline: 1px solid #da8301!important;
+  cursor: pointer;
+
+}
+
+.header .btns button:hover {
+    background-color: #ff4500;
+  }
+
+.header .btns .active {
+    background-color: #d2691e;
+  }
